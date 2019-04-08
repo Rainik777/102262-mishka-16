@@ -3,23 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo" href="#">
-        <img class="page-header__logo-image" src="http://placehold.it/86x35" width="86" height="35" alt="Логотип магазина милых штучек ручной работы Мишка">
+      <a  class="page-header__logo" href="#">
+          <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Логотип магазина милых штучек ручной работы Мишка">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item"><a href="catalog.html">Каталог товаров</a></li>
             <li class="site-list__item"><a href="form.html">Вязание на заказ</a></li>
           </ul>
-          <form>
-            <input class="main-nav__search" type="search">
+          <form class="main-nav__search-form">
+            <label><span class="visually-hidden">Поиск по сайту</span>
+              <input class="main-nav__search" type="search" placeholder="Поиск по сайту">
+            </label>
           </form>
-          <a class="main-nav__cart cart">Корзина:<span class="cart__ammount">пока пуста</span></a>
+          <a class="main-nav__cart cart">Корзина:<span class="cart__ammount"> пока пуста</span></a>
         </div>
       </nav>
     </header>
@@ -27,13 +31,13 @@
       <h1 class="visually-hidden">Интернет-магазин игрушек ручной работы</h1>
       <section class="main-header">
         <h2 class="visually-hidden">Предметы интерьера и детские игрушки</h2>
-        <div class="main-header__wrapper">
-          <p class="main-header__slogan">Милые штучки ручной работы для дома</p>
-          <ul class="main-header__list">
-            <li class="main-header__item"><a href="#">Предметы интерьера</a></li>
-            <li class="main-header__item"><a href="#">Дектские игрушки </a></li>
-          </ul>
+        <div class="main-header__slogan">
+          <p class="main-header__slogan-text">Милые штучки ручной работы для дома</p>
         </div>
+        <ul class="main-header__list">
+          <li class="main-header__item"><a href="#">Предметы интерьера</a></li>
+          <li class="main-header__item"><a href="#">Детские игрушки </a></li>
+        </ul>
       </section>
       <article class="product">
         <div class="product__wrapper">

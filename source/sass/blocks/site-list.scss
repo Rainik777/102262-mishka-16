@@ -1,0 +1,15 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+}
+
+.site-list__item {
+  display: block;
+  margin: 0;
+  padding: 22px 45px;
+  list-style: none;
+  border-top: 1px solid #000000;
+}
+.site-list__item a {
+  text-decoration: none;
+}

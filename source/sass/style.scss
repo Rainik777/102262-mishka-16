@@ -1,0 +1,21 @@
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/main-header.scss";
+@import "variables.scss";
+
+body {
+  width: 320px; //Поменять на min-width и добавить width в %
+  margin: 0 auto; // Убрать
+  background-color: $background-main-color;
+  border: 1px solid green;
+}
+
+// Прятки
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

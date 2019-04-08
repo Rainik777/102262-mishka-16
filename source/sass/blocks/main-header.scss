@@ -35,15 +35,16 @@
 }
 
 .main-header__item:first-of-type {
-  background-color: grey;
+  background-color: $color-green-light;
 }
 
 .main-header__item:last-of-type {
-  background-color: darkgrey;
+  background-color: $color-green-medium;
 }
 .main-header a {
   display: block;
   width: 110px;
+  color: #ffffff;
   font-size: 19px;
   text-decoration: none;
 }

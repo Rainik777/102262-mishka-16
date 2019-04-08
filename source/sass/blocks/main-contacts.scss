@@ -1,0 +1,42 @@
+.main-contacts {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-contacts__wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-contacts__header {
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+
+.main-contacts__table tr {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.main-contacts__item {
+  width: 75px;
+}
+
+.main-contacts__map-section {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.main-contacts__map-marker {
+  position: absolute;
+  top: calc(50% - 80px);
+  left: calc(50% - 33px);
+}
+
+.main-contacts__write-us {
+  margin: 0 auto;
+  width: 260px;
+  box-sizing: border-box;
+}

@@ -10,7 +10,21 @@
 .product__header {
   margin: 0;
   font-size: 25px;
+  font-weight: bold;
   line-height: 30px;
+}
+
+.product__special {
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $color-green-medium;
+}
+
+.product__summary {
+  font-size: 15px;
+  line-height: 25px;
+  color: $color-grey-dark;
 }
 
 .product__table {

@@ -1,0 +1,19 @@
+body {
+  width: 320px; //Поменять на min-width и добавить width в %
+  margin: 0 auto;
+  background-color: $background-main-color;
+  font-family: "OpenSans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Прятки
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

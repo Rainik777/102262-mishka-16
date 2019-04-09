@@ -1,0 +1,22 @@
+//Шрифты
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+//Переменные
+@import "var.scss";
+@import "global.scss";
+//Блоки
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/main-header.scss";
+@import "blocks/product.scss";
+@import "blocks/button.scss";
+@import "blocks/main-about.scss";
+@import "blocks/main-feedback.scss";
+@import "blocks/main-contacts.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/main-modal.scss";
+@import "blocks/catalog-page.scss";
+@import "blocks/catalog-list.scss";
+@import "blocks/catalog-item.scss";
+@import "blocks/production-process.scss";
+@import "blocks/form-main.scss";
+@import "blocks/form-order.scss";

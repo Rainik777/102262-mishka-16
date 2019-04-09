@@ -1,0 +1,51 @@
+.main-nav__toggle {
+  position: absolute;
+  display: block;
+  width: 21px;
+  height: 21px;
+  right: 30px;
+  top: 29px;
+  background-image: url("../../img/icon-menu-close.svg");
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.main-nav__item {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 75px;
+  border-top: 1px solid $color-grey-medium;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.main-nav__item-icon {
+  position: absolute;
+  left: 30px;
+}
+
+.main-nav__search-form {
+  position: relative;
+  display: block;
+}
+
+.main-nav__search {
+  width: 180px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.main-nav__search::-webkit-input-placeholder {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.main-nav__cart {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+}

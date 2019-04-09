@@ -4,7 +4,6 @@
 
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
-@import "blocks/site-list.scss";
 @import "blocks/main-header.scss";
 @import "blocks/product.scss";
 @import "blocks/button.scss";
@@ -17,9 +16,10 @@
 
 body {
   width: 320px; //Поменять на min-width и добавить width в %
-  margin: 0 auto; // Убрать
+  margin: 0 auto;
   background-color: $background-main-color;
   font-family: OpenSans, sans-serif;
+  border: 1px solid red;
 }
 
 a {

@@ -24,7 +24,7 @@
 .product__summary {
   font-size: 15px;
   line-height: 25px;
-  color: $color-grey-dark;
+  color: $color-grey-medium;
 }
 
 .product__table {
@@ -44,10 +44,12 @@
 
 .product__price {
   padding: 20px;
+  font-weight: bold;
   text-align: center;
 }
 
 .product__order {
   margin: 0 auto;
+  font-weight: bold;
   color: $color-grey-dark;
 }

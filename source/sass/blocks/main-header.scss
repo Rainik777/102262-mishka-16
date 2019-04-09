@@ -20,14 +20,8 @@
   font-weight: bold;
 }
 
-.main-header__list {
-  margin: 0;
-  padding: 0;
-}
-
 .main-header__item {
-  padding: 30px;
-  list-style: none;
+  position: relative;
 }
 
 .main-header__item:first-of-type {
@@ -37,11 +31,23 @@
 .main-header__item:last-of-type {
   background-color: $color-green-medium;
 }
-.main-header a {
+
+.main-header__item-link {
   display: block;
-  width: 110px;
+  padding: 30px;
   color: #ffffff;
   font-size: 19px;
   font-weight: bold;
   text-decoration: none;
+}
+
+.main-header__item-icon {
+  position: absolute;
+  top: 20px;
+  &--interior {
+    right: 35px;
+  }
+  &--toy {
+    right: 25px;
+  }
 }

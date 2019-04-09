@@ -1,8 +1,14 @@
 .main-modal {
+  position: absolute;
+  top: 0;
   padding-top: 35px;
   padding-bottom: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffffff;
   border-top: 1px solid $color-grey-dark;
   boredr-bottom: 1px solid $color-grey-dark;
+  box-shadow: 0 10px 5px -4px #666666;
 }
 
 .main-modal__wrapper {

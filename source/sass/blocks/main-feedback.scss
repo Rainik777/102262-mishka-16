@@ -5,13 +5,17 @@
 
 .main-feedback__text {
   margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 .main-feedback__author {
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .main-feedback__author-profile {
+  display: block;
   margin-bottom: 40px;
 }
 

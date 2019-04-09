@@ -3,13 +3,13 @@
 }
 
 .page-footer__wrapper {
-  padding: 30px 30px 20px;
+  padding: 20px 30px 10px;
 }
 
 .page-footer__social-list {
   margin: 0;
   padding-top: 0;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
@@ -40,18 +40,18 @@
 }
 
 .page-footer__developed {
-  padding: 20px 40px 0 40px;
+  position: relative;
+  padding: 10px 40px 0 40px;
   font-size: 19px;
+  font-weight: bold;
   line-height: 24px;
 }
 
-.page-footer__developed a {
-  margin-left: 30px;
-  display: inline-block;
-  vertical-align: middle;
-  width: 30px;
+.page-footer__developed-icon {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  display: block;
+  width: 35px;
   height: 35px;
-  background-image: url(../../img/htmlacademy.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }

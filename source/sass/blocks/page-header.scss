@@ -1,5 +1,4 @@
 .page-header {
-  width: 260px;  //Поменять на min-width и добавить width в %
   margin: 0 auto;
   box-sizing: border-box;
   position: relative;
@@ -7,12 +6,16 @@
   border-bottom: 1px solid $color-grey-medium;
 }
 
+.page-header__logo-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .page-header__logo {
   display: block;
   width: 86px;
   height: 35px;
   margin: 0 auto;
-  padding: 22px 8px;
 }
 
 

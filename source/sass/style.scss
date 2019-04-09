@@ -1,7 +1,8 @@
+//Шрифты
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
+//Переменные
 @import "var.scss";
-
+//Блоки
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/main-header.scss";
@@ -24,7 +25,7 @@ body {
   width: 320px; //Поменять на min-width и добавить width в %
   margin: 0 auto;
   background-color: $background-main-color;
-  font-family: OpenSans, sans-serif;
+  font-family: "OpenSans", sans-serif;
 }
 
 a {

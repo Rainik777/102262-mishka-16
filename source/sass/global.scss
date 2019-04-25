@@ -348,10 +348,6 @@ template {
   display: none;
 }
 
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-
 body {
   width: 320px; //Поменять на min-width и добавить width в %
   margin: 0 auto;

@@ -1,0 +1,33 @@
+/* Block — Index header */
+
+.index-header {
+  height: 745px;
+//  background-image: url('../img')
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.index-header__wrapper {
+  width: 100%;
+  padding: 120px 30px;
+}
+
+.index-header__category-item {
+  display: inline-block;
+}
+
+@media screen and (min-width: $tablet-width) {
+  .index-header__wrapper {
+    width: 668px;
+    padding: 120px 50px;
+  }
+}
+
+@media screen and (min-width: $desktop-width) {
+  .index-header__wrapper {
+    width: 1050px;
+    padding: 120px 50px;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,34 @@
+/* Block — About us */
+
+.about-us {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us__wrapper {
+  width: 100%;
+  padding: 120px 30px;
+}
+
+.about-us__item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: $tablet-width) {
+  .about-us__wrapper {
+    width: 668px;
+    padding: 120px 50px;
+  }
+}
+
+@media screen and (min-width: $desktop-width) {
+  .about-us__wrapper {
+    width: 1050px;
+    padding: 120px 50px;
+    justify-content: space-between;
+  }
+}
